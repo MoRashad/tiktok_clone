@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:tiktok_clone/consts.dart';
 import 'package:tiktok_clone/views/widgets/text_input_field.dart';
 
