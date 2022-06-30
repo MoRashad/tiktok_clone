@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:tiktok_clone/consts.dart';
+import 'package:tiktok_clone/views/screens/auth/signup_screen.dart';
 import 'package:tiktok_clone/views/widgets/text_input_field.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -82,12 +84,12 @@ class LoginScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const Text(
-                  'Don\t have an account?  ',
+                  'Don\'t have an account?  ',
                   style: TextStyle(fontSize: 20),
                 ),
                 InkWell(
                   onTap: () {
-                    print('register');
+                    Get.to(() => SignupScreen());
                   },
                   child: Text(
                     'Register',
